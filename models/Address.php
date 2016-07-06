@@ -56,12 +56,12 @@ class Address extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'country' => 'Country',
-            'city' => 'City',
-            'street' => 'Street',
-            'house' => 'House',
-            'zipcode' => 'Zipcode',
-            'created_at' => 'Created At',
+            'country' => 'Страна',
+            'city' => 'Город',
+            'street' => 'Улица',
+            'house' => 'Дом',
+            'zipcode' => 'Индекс',
+            'created_at' => 'Дата',
             'updated_at' => 'Updated At',
         ];
     }

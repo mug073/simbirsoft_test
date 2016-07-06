@@ -8,7 +8,7 @@ use kartik\daterange\DateRangePicker;
 /* @var $searchModel app\models\AddressSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Addresses';
+$this->title = 'Адрес';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="address-index">
@@ -17,9 +17,9 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Address', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Добавить адрес', ['create'], ['class' => 'btn btn-success']) ?>
 
-	<?= Html::a('Reset Filters', ['index'], ['class' => 'btn btn-danger']) ?>
+	<?= Html::a('Сбросить фильтр', ['index'], ['class' => 'btn btn-danger']) ?>
     </p>
 <?php Pjax::begin(); ?>    <?= GridView::widget([
         'dataProvider' => $dataProvider,
